@@ -93,8 +93,8 @@ The GITHUB repository for all these files is: **https://github.com/curiouselectr
 
 This kit has been designed and produced by:
 
- .. image:: ../SolderSolar_Instructions/Instruction Photos/CuriousElectricCompany_Logo_Round_Logo.png
-   :width: 100pt
+.. image:: /SolderSolar_Instructions/Instruction%20Photos/CuriousElectricCompany_Logo_Round_Logo.png?raw=true
+  :width: 50pt
 
 <p align="center">
 <b>The Curious Electric Company</b><br>
