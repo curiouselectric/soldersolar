@@ -56,8 +56,44 @@ This kit contains the following parts:
 Tools Required
 --------------
 
-Step 1:
--------
+Step 1: Solder Resistors
+------------------------
+
+Step 2: Solder Diode
+------------------------
+
+Step 3: Solder Switches
+------------------------
+
+Step 4: Solder Capacitor
+------------------------
+
+Step 5: Solder LEDs
+------------------------
+
+Step 6: Solder PV Cell
+------------------------
+The PV cell is actually a module comprised of a number of small solar PV cells. This unit has a maximum output of 5.5V and a maximum current of ***mA.
+The solar cell is attached to the back of the PCB and so will cover the soldering already done - please **double check** your soldering here and ensure there are not any bad connections or solder short circuits.
+
+
+
+Step 7: Attach Keyring
+------------------------
+
+Step 8: Finished!
+------------------------
+Place the unit in bright sunlight for a while (at least 10mins).
+When pressed, the switches should control each LED.
+
+Going Further
+----------------------
+This unit is also designed to be used as a solar power unit for very low power applications. Connections to P4 are to the terminals of the ultra-capacitor and these can be used to power other projects.
+Remember that the voltage can vary from 0V (when totally discharged) up to 5.3V (when totally charged). The attached circuit must be able to withstand this range of voltages.
+
+
+Troubleshooting
+--------------------
 
 
 Circuit Overview
