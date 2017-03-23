@@ -73,7 +73,7 @@ Step 5: Solder LEDs
 
 Step 6: Solder PV Cell
 ------------------------
-The PV cell is actually a module comprised of a number of small solar PV cells. This unit has a maximum output of 5.5V and a maximum current of ***mA.
+The PV cell is actually a module comprised of a number of small solar PV cells. This unit has a maximum output of 5.5V and a maximum current of ???mA.
 The solar cell is attached to the back of the PCB and so will cover the soldering already done - please **double check** your soldering here and ensure there are not any bad connections or solder short circuits.
 
 
@@ -129,7 +129,7 @@ The GITHUB repository for all these files is: **https://github.com/curiouselectr
 
 This kit has been designed and produced by:
 
- .. image:: ../SolderSolar_Instructions/Instruction Photos/CuriousElectricCompany_Logo_Round_Logo.png
+ .. image:: /SolderSolar_Instructions/Instruction_Photos/CuriousElectricCompany_Logo_Round_Logo.png
    :width: 100pt
 
 <p align="center">
