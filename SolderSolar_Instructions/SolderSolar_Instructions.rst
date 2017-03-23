@@ -93,7 +93,7 @@ The GITHUB repository for all these files is: **https://github.com/curiouselectr
 
 This kit has been designed and produced by:
 
- .. image:: "/soldersolar/Instruction Photos/CuriousElectricCompany_Logo_Round_Logo.png"
+ .. image:: ../SolderSolar_Instructions/Instruction Photos/CuriousElectricCompany_Logo_Round_Logo.png
    :width: 100pt
 
 <p align="center">
