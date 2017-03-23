@@ -93,20 +93,16 @@ The GITHUB repository for all these files is: **https://github.com/curiouselectr
 
 This kit has been designed and produced by:
 
- .. image:: ../SolderSolar_Instructions/Instruction Photos/CuriousElectricCompany_Logo_Round_Logo.png
-   :width: 100pt
+ .. image:: /SolderSolar_Instructions/Instruction%20Photos/CuriousElectricCompany_Logo_Round_Logo.png
+   :align: center
+   :width: 50px
 
-<p align="center">
-<b>The Curious Electric Company</b><br>
-hello@curiouselectric.co.uk<br>
-www.curiouselectric.co.uk<br>
-Hopkinson,<br>
-21 Station Street,<br>
-Nottingham,<br>
-NG2 3AJ, UK<br>
+::
+The Curious Electric Company
+hello@curiouselectric.co.uk
+www.curiouselectric.co.uk
+Hopkinson,
+21 Station Street,
+Nottingham,
+NG2 3AJ, UK
 
-</p>
-<p align="center">
-
-<img src="E:\Google Drive\Work - Kits\PRODUCTS\Production\Solar Torch\Solder Solar\GITHUB\soldersolar\SolderSolar_Instructions\Instruction Photos/CuriousElectricCompany_Logo_Round_Logo.png" width="300" align="middle">
-</p>
