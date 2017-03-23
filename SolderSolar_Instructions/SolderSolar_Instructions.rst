@@ -93,7 +93,7 @@ The GITHUB repository for all these files is: **https://github.com/curiouselectr
 
 This kit has been designed and produced by:
 
- .. image:: "E:\Google Drive\Work - Kits\PRODUCTS\Production\Solar Torch\Solder Solar\GITHUB\soldersolar\SolderSolar_Instructions\Instruction Photos/CuriousElectricCompany_Logo_Round_Logo.png"
+ .. image:: "Instruction Photos\CuriousElectricCompany_Logo_Round_Logo.png"
    :width: 100pt
 
 <p align="center">
