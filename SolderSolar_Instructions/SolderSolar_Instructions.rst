@@ -28,7 +28,7 @@ Kit Contents
 ------------
 
 .. image:: Instruction_Photos/components2_sm.jpg?raw=true
-   :width: 4000px
+   :width: 400px
    
 This kit contains the following parts:
 
@@ -55,6 +55,9 @@ This kit contains the following parts:
 +------+-----------------+--------------------------+
 | PCB  |  Circuit board  |                          |
 +------+-----------------+--------------------------+
+
+.. image:: Instruction_Photos/components3_sm.jpg?raw=true
+   :width: 400px
 
 Tools Required
 --------------
@@ -89,6 +92,9 @@ There are two resistor to solder into the areas marked R1 and R2. These control 
 | R2   | 120R resistor   | Brown-Red-Black-Gold     |
 +------+-----------------+--------------------------+
 
+.. image:: Instruction_Photos/PCB1_sm.jpg?raw=true
+   :width: 400px
+
 Step 2: Solder Diode
 ------------------------
 
@@ -96,22 +102,19 @@ There is one diode to solder into the holes marked D1. This is a 1N5819 Schottky
 The diode allow current to pass from the solar cell to the capacitor, but not allow current to flow back to the solar cell.
 This diode **must** be inserted with the correct orientation. The white band on the diode must align with the thicker white band on the PCB silk-screen.
 
+.. image:: Instruction_Photos/PCB2_sm.jpg?raw=true
+   :width: 400px
+
 Info: The data sheet for the diode is here: https://www.diodes.com/assets/Datasheets/ds23001.pdf
 
 Step 3: Solder Switches
 ------------------------
 There are two switches to solder in locations SW1 and SW2.
 
-Step 4: Solder Capacitor
-------------------------
-The capacitor is a 0.47F ultra-capacitor. This is used to store the energy from the solar cell so it can be used later.
-It is an electrolytic capacitor and you **must ensure the correct polarity**.
+.. image:: Instruction_Photos/PCB3_sm.jpg?raw=true
+   :width: 400px
 
-There are some small white tringles on the capacitor which indicate the negative pin. This pin must align with the large white area of C1 on the PCB silk screen.
-Another way to fin the pin polarity is that the positive (+) pin is on the bottom of the capacitor and the negative is on the top.
-Please see photos for clarification.
-
-Step 5: Solder LEDs
+Step 4: Solder LEDs
 ------------------------
 There are two LEDs to solder - one white and one red. These look very similar, but the red LED will have a label on it. Do not mix these up when the label taken off.
 It is best to solder the white LED first, then take the label off the red LED and solder that.
@@ -120,13 +123,40 @@ The positive lead will be the longer lead. The negative lead has a slightly flat
 The LEDs are designed to be bent down to align with the PCB into the cut-outs.
 Please see photos for clarification.
 
+.. image:: Instruction_Photos/PCB4_sm.jpg?raw=true
+   :width: 400px
 
+.. image:: Instruction_Photos/PCB5_sm.jpg?raw=true
+   :width: 400px
 
+Step 5: Solder Capacitor
+------------------------
+The capacitor is a 0.47F ultra-capacitor. This is used to store the energy from the solar cell so it can be used later.
+It is an electrolytic capacitor and you **must ensure the correct polarity**.
+
+There are some small white tringles on the capacitor which indicate the negative pin. This pin must align with the large white area of C1 on the PCB silk screen.
+Another way to fin the pin polarity is that the positive (+) pin is on the bottom of the capacitor and the negative is on the top.
+Please see photos for clarification.
+
+.. image:: Instruction_Photos/PCB6_sm.jpg?raw=true
+   :width: 400px
+
+.. image:: Instruction_Photos/PCB7_sm.jpg?raw=true
+   :width: 400px
 
 Step 6: Solder PV Cell
 ------------------------
 The PV cell is actually a module comprised of a number of small solar PV cells. This unit has a maximum output of 5.5V and a maximum current of 30mA under ideal conditions.
 The solar cell is attached to the back of the PCB and so will cover the soldering already done - please **double check** your soldering here and ensure there are not any bad connections or solder short circuits.
+
+.. image:: Instruction_Photos/PCB8_sm.jpg?raw=true
+   :width: 400px
+
+.. image:: Instruction_Photos/PCB9_sm.jpg?raw=true
+   :width: 400px
+   
+.. image:: Instruction_Photos/PCB10_sm.jpg?raw=true
+   :width: 400px
 
 
 
@@ -136,11 +166,28 @@ If used, the key-ring can be bent out slightly and fitted into the hole on the s
 
 This is designed to help clip it onto a back-pack etc. We would suggest not using this with keys, as the metal keys might short circuit the components and cause a problem.
 
-
+.. image:: Instruction_Photos/PCB11_sm.jpg?raw=true
+   :width: 400px
+   
+.. image:: Instruction_Photos/PCB12_sm.jpg?raw=true
+   :width: 400px   
+   
 Step 8: Finished!
 ------------------------
 Place the unit in bright sunlight for a while (at least 10mins).
 When pressed, the switches should control each LED.
+
+.. image:: Instruction_Photos/PCB13_sm.jpg?raw=true
+   :width: 400px
+   
+.. image:: Instruction_Photos/InUse1_sm.jpg?raw=true
+   :width: 400px
+
+.. image:: Instruction_Photos/InUse2_sm.jpg?raw=true
+   :width: 400px
+   
+.. image:: Instruction_Photos/InUse3_sm.jpg?raw=true
+   :width: 400px   
 
 Going Further
 ----------------------
@@ -185,20 +232,19 @@ The GITHUB repository for all these files is: **https://github.com/curiouselectr
 
 This kit has been designed and produced by:
 
- .. image:: /SolderSolar_Instructions/Instruction_Photos/CuriousElectricCompany_Logo_Round_Logo.png
-   :width: 100pt
+.. image:: Instruction_Photos/CuriousElectricCompany_Logo_Round_Logo_sm.png?raw=true
+   :width: 400px
 
-<p align="center">
-<b>The Curious Electric Company</b><br>
-hello@curiouselectric.co.uk<br>
-www.curiouselectric.co.uk<br>
-Hopkinson,<br>
-21 Station Street,<br>
-Nottingham,<br>
-NG2 3AJ, UK<br>
+The Curious Electric Company
 
-</p>
-<p align="center">
+hello@curiouselectric.co.uk
 
-<img src="E:\Google Drive\Work - Kits\PRODUCTS\Production\Solar Torch\Solder Solar\GITHUB\soldersolar\SolderSolar_Instructions\Instruction Photos/CuriousElectricCompany_Logo_Round_Logo.png" width="300" align="middle">
-</p>
+www.curiouselectric.co.uk
+
+Hopkinson,
+
+21 Station Street,
+
+Nottingham,
+
+NG2 3AJ, UK
