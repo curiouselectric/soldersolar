@@ -27,8 +27,9 @@ This kit can also be used as a small power supply for other projects (requiring 
 Kit Contents
 ------------
 
-
-
+.. image:: Instruction_Photos/components2_sm.jpg?raw=true
+   :width: 4000px
+   
 This kit contains the following parts:
 
 +------+-----------------+--------------------------+
