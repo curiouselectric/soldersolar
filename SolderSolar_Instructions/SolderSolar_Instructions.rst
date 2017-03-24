@@ -3,6 +3,8 @@ Solder Solar
 
 Design and instructions for a simple DIY solar powered torch.
 
+This kit is designed as a **"Learn to Solder"** kit and as an introduction to **solar power**.
+
 *By: Matthew Little*
 
 *Date: 17th Feb 2017*
@@ -19,8 +21,6 @@ There are two LEDs, one white and one red, which are powered by the energy in th
 This can be used when out and about, charged during the day and a handy light for night. The white light is useful to find your way around, while the red light will not affect your night vision, so can be used when reading map at night.
 
 The ultra-capacitor is 0.47F which stores enough charge for around 20 minutes of white light, or around 1 hour of red light.
-
-This kit is designed as a **"Learn to Solder"** kit and as an introduction to **solar power**.
 
 This kit can also be used as a small power supply for other projects (requiring a 3-5.5V power supply). This could be used for very low power monitoring nodes.
 
@@ -56,13 +56,14 @@ This kit contains the following parts:
 | PCB  |  Circuit board  |                          |
 +------+-----------------+--------------------------+
 
+This photo shows where each of the components is placed on the PCB.
+
 .. image:: Instruction_Photos/components3_sm.jpg?raw=true
    :width: 400px
 
 Tools Required
 --------------
-
-The following tools will be required
+The following tools will be required:
 
 +-----------------+--------------------------+
 | Tool            | Description              |
@@ -74,11 +75,16 @@ The following tools will be required
 | Side-cutter     | For cutting excess leads |
 +-----------------+--------------------------+
 
-
+.. image:: Instruction_Photos/tools1.png?raw=true
+   :width: 400px
 
 A useful guide for learning to solder is available here:
 
+https://cdn.shopify.com/s/files/1/0943/8168/files/soldercomic.pdf
 
+And a more detaileld guide is available here:
+
+https://cdn.shopify.com/s/files/1/0943/8168/files/FullSolderComic_EN.pdf
 
 Step 1: Solder Resistors
 ------------------------
@@ -117,9 +123,12 @@ There are two switches to solder in locations SW1 and SW2.
 Step 4: Solder LEDs
 ------------------------
 There are two LEDs to solder - one white and one red. These look very similar, but the red LED will have a label on it. Do not mix these up when the label taken off.
+
 It is best to solder the white LED first, then take the label off the red LED and solder that.
 You must ensure correct polarity of these LEDs.
+
 The positive lead will be the longer lead. The negative lead has a slightly flat side to the LED case. These should align with the markings "+" and "FLAT" on the PCB.
+
 The LEDs are designed to be bent down to align with the PCB into the cut-outs.
 Please see photos for clarification.
 
@@ -135,7 +144,8 @@ The capacitor is a 0.47F ultra-capacitor. This is used to store the energy from 
 It is an electrolytic capacitor and you **must ensure the correct polarity**.
 
 There are some small white tringles on the capacitor which indicate the negative pin. This pin must align with the large white area of C1 on the PCB silk screen.
-Another way to fin the pin polarity is that the positive (+) pin is on the bottom of the capacitor and the negative is on the top.
+
+Another way to find the pin polarity is that the positive (+) pin is on the bottom of the capacitor and the negative is on the top.
 Please see photos for clarification.
 
 .. image:: Instruction_Photos/PCB6_sm.jpg?raw=true
@@ -147,7 +157,12 @@ Please see photos for clarification.
 Step 6: Solder PV Cell
 ------------------------
 The PV cell is actually a module comprised of a number of small solar PV cells. This unit has a maximum output of 5.5V and a maximum current of 30mA under ideal conditions.
+
 The solar cell is attached to the back of the PCB and so will cover the soldering already done - please **double check** your soldering here and ensure there are not any bad connections or solder short circuits.
+
+We need to align the + connection on the PV cell with the + on the PCB.
+
+We need to add quite a lot of solder to make this conenction. It is best to put a blob of solder on the PV cell pad, then leave it to cool. Then align the PV cell and add more solder until the connection is made to the contacts on the edge of the PCB.
 
 .. image:: Instruction_Photos/PCB8_sm.jpg?raw=true
    :width: 400px
@@ -157,8 +172,6 @@ The solar cell is attached to the back of the PCB and so will cover the solderin
    
 .. image:: Instruction_Photos/PCB10_sm.jpg?raw=true
    :width: 400px
-
-
 
 Step 7: Attach Key-ring
 ------------------------
@@ -194,32 +207,30 @@ Going Further
 This unit is also designed to be used as a solar power unit for very low power applications. Connections to P4 are to the terminals of the ultra-capacitor and these can be used to power other projects.
 Remember that the voltage can vary from 0V (when totally discharged) up to 5.3V (when totally charged). The attached circuit must be able to withstand this range of voltages.
 
-
 Troubleshooting
 --------------------
+This ciruit is relatively simple and designed for the beginner. There are four items which have a polarity and the circuit will not work if any of the following are places the wrong way around:
+- Diode
+- LEDs
+- Capacitor
+- PV Cell
 
+Please double check these in case of any issues.
 
-Circuit Overview
-------------
-
-
+Please also double check the soldering to ensure that there are no short circuits (solder connecting two pads) or 'dry joints' (which do not have enough solder or are not clean).
 
 Circuit Schematic
 -------------------
-
-.. image:: picture.jpeg
-   :height: 100px
-   :width: 200 px
-   :scale: 50 %
-   :alt: alternate text
-   :align: right
+.. image:: Instruction_Photos/Schematic.png?raw=true
+   :width: 400px
 
 PCB overview
 ------------
+.. image:: Instruction_Photos/SilkScreen.png?raw=true
+   :width: 400px
 
 Suppliers Information
 ----------------------
-
 We would like you to be happy with this kit. If you are not happy for any reason then please contact us and we will help to sort it out.
 
 Please email **hello@curiouselectric.co.uk** with any questions or comments or please tweet us at **@curiouselectric**
@@ -235,16 +246,19 @@ This kit has been designed and produced by:
 .. image:: Instruction_Photos/CuriousElectricCompany_Logo_Round_Logo_sm.png?raw=true
    :width: 400px
 
-The Curious Electric Company
 
-hello@curiouselectric.co.uk
+..
 
-www.curiouselectric.co.uk
+   The Curious Electric Company
+   
+   hello@curiouselectric.co.uk
 
-Hopkinson,
+   www.curiouselectric.co.uk
 
-21 Station Street,
+   Hopkinson,
 
-Nottingham,
+   21 Station Street,
 
-NG2 3AJ, UK
+   Nottingham,
+
+   NG2 3AJ, UK
