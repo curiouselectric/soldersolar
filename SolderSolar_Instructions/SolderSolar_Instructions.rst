@@ -11,9 +11,12 @@ Design and instructions for a simple DIY solar powered torch.
 
 Overview
 -------
-This is a very simple soldering kit to build a solar powered torch.
+This is a very simple soldering kit to build a solar powered torch. Use it for camping, exploring, investigating and illuminating.
+
 The unit has a small solar panel which recharges an ultra-capacitor.
 There are two LEDs, one white and one red, which are powered by the energy in the ultra-capacitor.
+
+This can be used when out and about, charged during the day and a handy light for night. The white light is useful to find your way around, while the red light will not affect your night vision, so can be used when reading map at night.
 
 The ultra-capacitor is 0.47F which stores enough charge for around 20 minutes of white light, or around 1 hour of red light.
 
@@ -23,6 +26,8 @@ This kit can also be used as a small power supply for other projects (requiring 
 
 Kit Contents
 ------------
+
+
 
 This kit contains the following parts:
 
@@ -50,36 +55,86 @@ This kit contains the following parts:
 | PCB  |  Circuit board  |                          |
 +------+-----------------+--------------------------+
 
-
-
-
 Tools Required
 --------------
 
+The following tools will be required
+
++-----------------+--------------------------+
+| Tool            | Description              |
++=================+==========================+
+| Soldering Iron  | 25W+ is best             |
++-----------------+--------------------------+
+| Solder          | I use lead-free solder   |
++-----------------+--------------------------+
+| Side-cutter     | For cutting excess leads |
++-----------------+--------------------------+
+
+
+
+A useful guide for learning to solder is available here:
+
+
+
 Step 1: Solder Resistors
 ------------------------
+There are two resistor to solder into the areas marked R1 and R2. These control the current into the LEDs and hence their brightness.
+
++------+-----------------+--------------------------+
+| REF  | Description     | Details                  |
++======+=================+==========================+
+| R1   | 330R resistor   | Orange-Orange-Brown-Gold |
++------+-----------------+--------------------------+
+| R2   | 120R resistor   | Brown-Red-Black-Gold     |
++------+-----------------+--------------------------+
 
 Step 2: Solder Diode
 ------------------------
 
+There is one diode to solder into the holes marked D1. This is a 1N5819 Schottky diode, which is suitable for up to 1A and has a low voltage drop.
+The diode allow current to pass from the solar cell to the capacitor, but not allow current to flow back to the solar cell.
+This diode **must** be inserted with the correct orientation. The white band on the diode must align with the thicker white band on the PCB silk-screen.
+
+Info: The data sheet for the diode is here: https://www.diodes.com/assets/Datasheets/ds23001.pdf
+
 Step 3: Solder Switches
 ------------------------
+There are two switches to solder in locations SW1 and SW2.
 
 Step 4: Solder Capacitor
 ------------------------
+The capacitor is a 0.47F ultra-capacitor. This is used to store the energy from the solar cell so it can be used later.
+It is an electrolytic capacitor and you **must ensure the correct polarity**.
+
+There are some small white tringles on the capacitor which indicate the negative pin. This pin must align with the large white area of C1 on the PCB silk screen.
+Another way to fin the pin polarity is that the positive (+) pin is on the bottom of the capacitor and the negative is on the top.
+Please see photos for clarification.
 
 Step 5: Solder LEDs
 ------------------------
+There are two LEDs to solder - one white and one red. These look very similar, but the red LED will have a label on it. Do not mix these up when the label taken off.
+It is best to solder the white LED first, then take the label off the red LED and solder that.
+You must ensure correct polarity of these LEDs.
+The positive lead will be the longer lead. The negative lead has a slightly flat side to the LED case. These should align with the markings "+" and "FLAT" on the PCB.
+The LEDs are designed to be bent down to align with the PCB into the cut-outs.
+Please see photos for clarification.
+
+
+
 
 Step 6: Solder PV Cell
 ------------------------
-The PV cell is actually a module comprised of a number of small solar PV cells. This unit has a maximum output of 5.5V and a maximum current of ???mA.
+The PV cell is actually a module comprised of a number of small solar PV cells. This unit has a maximum output of 5.5V and a maximum current of 30mA under ideal conditions.
 The solar cell is attached to the back of the PCB and so will cover the soldering already done - please **double check** your soldering here and ensure there are not any bad connections or solder short circuits.
 
 
 
-Step 7: Attach Keyring
+Step 7: Attach Key-ring
 ------------------------
+If used, the key-ring can be bent out slightly and fitted into the hole on the side of the PCB.
+
+This is designed to help clip it onto a back-pack etc. We would suggest not using this with keys, as the metal keys might short circuit the components and cause a problem.
+
 
 Step 8: Finished!
 ------------------------
