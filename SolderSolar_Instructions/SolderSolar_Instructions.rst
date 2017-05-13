@@ -143,7 +143,7 @@ Step 5: Solder Capacitor
 The capacitor is a 0.47F ultra-capacitor. This is used to store the energy from the solar cell so it can be used later.
 It is an electrolytic capacitor and you **must ensure the correct polarity**.
 
-There are some small white tringles on the capacitor which indicate the negative pin. This pin must align with the large white area of C1 on the PCB silk screen.
+There are some small white triangles on the capacitor which indicate the negative pin. This pin must align with the large white area of C1 on the PCB silk screen.
 
 Another way to find the pin polarity is that the positive (+) pin is on the bottom of the capacitor and the negative is on the top.
 Please see photos for clarification.
