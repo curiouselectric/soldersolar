@@ -255,10 +255,3 @@ This kit has been designed and produced by:
    
    www.curiouselectric.co.uk
    
-   Hopkinson,
-   
-   21 Station Street,
-   
-   Nottingham,
-   
-   NG2 3AJ, UK
