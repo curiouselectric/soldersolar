@@ -1757,7 +1757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "REInnovationFootprint:PV_50x30mm_NoOutline"
+		(property "Footprint" "REInnovationFootprint:PV_50x30mm_NoOutline_v2"
 			(at 100.33 96.266 90)
 			(effects
 				(font

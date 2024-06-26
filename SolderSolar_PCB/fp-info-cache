@@ -1,4 +1,4 @@
-24371198760154239
+24372918161340961
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86878,6 +86878,13 @@ PV_50x30mmEdgeCut_NoLED
 0
 REInnovationFootprint
 PV_50x30mm_NoOutline
+
+
+0
+2
+2
+REInnovationFootprint
+PV_50x30mm_NoOutline_v2
 
 
 0
